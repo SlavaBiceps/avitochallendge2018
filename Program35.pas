@@ -25,6 +25,7 @@ begin
     end;
   end;
 end;
+
 procedure QuickSort(a: array of int64; l,r: int64);
 begin
   if l>=r then exit;
